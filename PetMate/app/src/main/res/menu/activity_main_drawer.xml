@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_petdetails"
+            android:icon="@drawable/ic_details"
+            android:title="Pet Details" />
+        <item
+            android:id="@+id/nav_reminder"
+            android:icon="@drawable/ic_clock"
+            android:title="Reminder" />
+        <item
+            android:id="@+id/nav_health"
+            android:icon="@drawable/ic_hospital"
+            android:title="Health Data" />
+
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/ic_location"
+            android:title="Locate Pet" />
+        <item
+            android:id="@+id/nav_capture"
+            android:icon="@drawable/ic_camera"
+            android:title="Capture " />
+
+        <item
+            android:id="@+id/nav_food"
+            android:icon="@drawable/ic_food"
+            android:title="Dispense Food" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Logout" />
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        </menu>
+    </item>
+
+</menu>
